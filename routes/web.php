@@ -10,3 +10,4 @@ Route::get('/', function () {
 
 Route::get("/details" , [userController::class , "getProductWithUser"] );
 Route::get("/seller" , [watchSellerController::class , "getWatch"] );
+Route::get("/watch" , [watchSellerController::class , "getSeller"] );
